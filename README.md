@@ -1,8 +1,9 @@
-# Takım İsmi
+## Takım İsmi
 
 Grup 80
 
-# Ürün ile İlgili Bilgiler
+
+## Ürün ile İlgili Bilgiler
 
 ## Takım Rolleri
 
@@ -12,9 +13,11 @@ Grup 80
 - Ömer Faruk Ayvaz – Developer
 - Zeynep Müderrisoğlu – Developer
 
+
 ## Ürün İsmi
 
 **SmartPlate AI**
+
 
 ## Ürün Açıklaması
 
@@ -25,6 +28,7 @@ Kullanıcılar uygulamaya buzdolabında bulunan ürünleri ve son kullanma tarih
 Bunun yanında uygulama, kullanıcıların günlük kalori hedeflerini dikkate alarak daha sağlıklı tarif önerileri sunmayı amaçlamaktadır. İlerleyen sürümlerde Health entegrasyonu sayesinde günlük aktivite bilgilerine göre kişiselleştirilmiş yemek önerileri sunulması hedeflenmektedir.
 
 SmartPlate AI'ın temel amacı; gıda israfını azaltmak, kullanıcıların bütçesine katkı sağlamak ve sağlıklı beslenmeyi destekleyen akıllı bir yardımcı olmaktır.
+
 
 ## Ürün Özellikleri
 
@@ -39,7 +43,8 @@ SmartPlate AI'ın temel amacı; gıda israfını azaltmak, kullanıcıların bü
 - Günlük kalori hedefine uygun sağlıklı tarif önerileri sunma
 - Diyet tercihlerine uygun öneriler sunma (vegan, vejetaryen, glutensiz vb.)
 - Gıda israfı ve tasarruf analizleri oluşturma
-- Google Fit / Apple Health entegrasyonu *(Planlanan Özellik)*
+- Google Fit / Apple Health entegrasyonu 
+  
 
 ## Hedef Kitle
 
@@ -51,6 +56,7 @@ SmartPlate AI'ın temel amacı; gıda israfını azaltmak, kullanıcıların bü
 - Diyet yapan ve sporla ilgilenen kişiler
 - Gıda israfını azaltmak isteyen herkes
 - Akıllı telefon kullanıcıları
+  
 
 ## Product Backlog
 
