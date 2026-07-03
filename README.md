@@ -54,6 +54,7 @@ SmartPlate AI'ın temel amacı; gıda israfını azaltmak, kullanıcıların bü
 ## Product Backlog URL
 
 https://github.com/users/Esmaeyluladak/projects/1/views/1
+
 ---
 
 # Sprint 1
