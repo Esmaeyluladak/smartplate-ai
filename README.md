@@ -63,7 +63,6 @@ https://github.com/users/Esmaeyluladak/projects/1/views/1
 
 İlk sprintte proje fikri netleştirilmiş, takım rolleri belirlenmiş ve GitHub proje yönetim ortamı oluşturulmuştur. SmartPlate AI için React tabanlı frontend ve Spring Boot tabanlı backend mimarisi planlanmıştır. Ürünün temel ekranları, kullanıcı yönetimi ve buzdolabı yönetimi özellikleri Sprint 1 kapsamında planlanmıştır.
 
-
 ## Daily Scrum
 
 Daily Scrum toplantıları takım üyelerinin uygunluk durumuna göre WhatsApp üzerinden gerçekleştirilmiştir. Toplantı özetleri ve alınan kararlar grup içerisinde paylaşılmıştır.
