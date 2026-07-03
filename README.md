@@ -1,23 +1,20 @@
-## Takım İsmi
+# Takım İsmi
 
 Grup 80
 
+# Ürün ile İlgili Bilgiler
 
-## Ürün ile İlgili Bilgiler
-
-## Takım Rolleri
+## Takım Elemanları
 
 - Damla Kundak – Product Owner
 - Esma Eylül Adak – Scrum Master
-- Ali Uzunkulaoğlu – Developer
-- Ömer Faruk Ayvaz – Developer
-- Zeynep Müderrisoğlu – Developer
-
+- Ali Uzunkulaoğlu – Team Member / Developer
+- Ömer Faruk Ayvaz – Team Member / Developer
+- Zeynep Müderrisoğlu – Team Member / Developer
 
 ## Ürün İsmi
 
 **SmartPlate AI**
-
 
 ## Ürün Açıklaması
 
@@ -28,7 +25,6 @@ Kullanıcılar uygulamaya buzdolabında bulunan ürünleri ve son kullanma tarih
 Bunun yanında uygulama, kullanıcıların günlük kalori hedeflerini dikkate alarak daha sağlıklı tarif önerileri sunmayı amaçlamaktadır. İlerleyen sürümlerde Health entegrasyonu sayesinde günlük aktivite bilgilerine göre kişiselleştirilmiş yemek önerileri sunulması hedeflenmektedir.
 
 SmartPlate AI'ın temel amacı; gıda israfını azaltmak, kullanıcıların bütçesine katkı sağlamak ve sağlıklı beslenmeyi destekleyen akıllı bir yardımcı olmaktır.
-
 
 ## Ürün Özellikleri
 
@@ -43,8 +39,6 @@ SmartPlate AI'ın temel amacı; gıda israfını azaltmak, kullanıcıların bü
 - Günlük kalori hedefine uygun sağlıklı tarif önerileri sunma
 - Diyet tercihlerine uygun öneriler sunma (vegan, vejetaryen, glutensiz vb.)
 - Gıda israfı ve tasarruf analizleri oluşturma
-- Google Fit / Apple Health entegrasyonu 
-  
 
 ## Hedef Kitle
 
@@ -56,52 +50,61 @@ SmartPlate AI'ın temel amacı; gıda israfını azaltmak, kullanıcıların bü
 - Diyet yapan ve sporla ilgilenen kişiler
 - Gıda israfını azaltmak isteyen herkes
 - Akıllı telefon kullanıcıları
-  
 
-## Product Backlog
+## Product Backlog URL
 
-### Epic 1 – Kullanıcı Yönetimi
+https://github.com/users/Esmaeyluladak/projects/1/views/1
+---
 
-- Kullanıcı kayıt olur.
-- Kullanıcı giriş yapar.
-- Profil bilgilerini günceller.
+# Sprint 1
 
-### Epic 2 – Buzdolabı Yönetimi
+## Sprint Notları
 
-- Ürün ekleme
-- Ürün düzenleme
-- Ürün silme
-- Ürün listeleme
-- Son kullanma tarihi ekleme
+İlk sprintte proje fikri netleştirilmiş, takım rolleri belirlenmiş ve GitHub proje yönetim ortamı oluşturulmuştur. SmartPlate AI için React tabanlı frontend ve Spring Boot tabanlı backend mimarisi planlanmıştır. Ürünün temel ekranları, kullanıcı yönetimi ve buzdolabı yönetimi özellikleri Sprint 1 kapsamında planlanmıştır.
 
-### Epic 3 – Yapay Zekâ Destekli Tarif Sistemi
 
-- Mevcut malzemeleri analiz etme
-- Yapay zekâ ile yemek önerisi oluşturma
-- Alternatif tarif önerileri sunma
-- Bozulacak ürünleri öncelikli kullanan tarifler önerme
+## Daily Scrum
 
-### Epic 4 – Bildirim Sistemi
+Daily Scrum toplantıları takım üyelerinin uygunluk durumuna göre WhatsApp üzerinden gerçekleştirilmiştir. Toplantı özetleri ve alınan kararlar grup içerisinde paylaşılmıştır.
 
-- Son kullanma tarihi yaklaşan ürünler için bildirim gönderme
-- Bozulma riski bulunan ürünler için uyarı oluşturma
-- Günlük hatırlatma bildirimleri
+## Sprint Board Update
 
-### Epic 5 – Alışveriş Listesi
+Sprint Board GitHub Projects kullanılarak hazırlanmıştır.
 
-- Eksik ürünleri belirleme
-- Otomatik alışveriş listesi oluşturma
-- Alışveriş listesini düzenleme
+> Sprint Board ekran görüntüsü bu bölüme eklenecektir.
 
-### Epic 6 – Sağlıklı Beslenme
+## Ürün Durumu
 
-- Tariflerin tahmini kalorisini hesaplama
-- Günlük kalori hedefine uygun tarif önerileri sunma
-- Diyet tercihine uygun yemek önerileri oluşturma
-- Google Fit / Apple Health entegrasyonu *(Planlanan Özellik)*
+Sprint 1 sonunda;
 
-### Epic 7 – Raporlama
+- README dokümanı hazırlanmıştır.
+- Product Backlog oluşturulmuştur.
+- GitHub Project Board oluşturulmuştur.
+- React proje yapısı oluşturulmaya başlanmıştır.
+- Spring Boot proje yapısı oluşturulmaya başlanmıştır.
+- Veritabanı tasarımı planlanmıştır.
+- Kullanıcı kayıt ve giriş sistemi analiz edilmiştir.
+- Ürün ekleme ve listeleme ekranlarının geliştirilmesi planlanmıştır.
 
-- Gıda israfı analizi
-- Tasarruf istatistikleri
-- Kullanılan ve israf edilen ürün raporları
+> Bu bölüme Sprint sonunda ürün ekran görüntüleri eklenecektir.
+
+## Sprint Review
+
+Sprint sonunda ürün fikri ve proje kapsamı ekip tarafından değerlendirilmiştir. İlk sprintte temel proje planlaması, backlog oluşturulması ve geliştirme ortamının hazırlanması başarıyla tamamlanmıştır. Bir sonraki sprintte kullanıcı yönetimi, ürün yönetimi ve yapay zekâ entegrasyonu geliştirmelerine başlanmasına karar verilmiştir.
+
+## Sprint Retrospective
+
+- Takım içi görev dağılımı netleştirilmiştir.
+- GitHub proje yönetim süreci oluşturulmuştur.
+- React ve Spring Boot teknolojilerinin kullanılmasına karar verilmiştir.
+- İkinci sprintte kullanıcı işlemleri ve ürün yönetimi geliştirmelerine odaklanılması kararlaştırılmıştır.
+
+---
+
+# Sprint 2
+
+
+---
+
+# Sprint 3
+
