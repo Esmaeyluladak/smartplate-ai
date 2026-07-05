@@ -71,9 +71,8 @@ Daily Scrum toplantıları takım üyelerinin uygunluk durumuna göre WhatsApp �
 
 Sprint Board GitHub Projects kullanılarak hazırlanmıştır.
 
-<img width="1950" height="1124" alt="Ekran görüntüsü 2026-07-03 201253" src="https://github.com/user-attachments/assets/6ddac917-ba29-416f-bced-dd25a80e9f37" />
-<img width="1950" height="1160" alt="Ekran görüntüsü 2026-07-03 201309" src="https://github.com/user-attachments/assets/8aac9a36-a60b-481f-a06c-edf594631474" />
-<img width="2140" height="1202" alt="Ekran görüntüsü 2026-07-03 201332" src="https://github.com/user-attachments/assets/ef602d83-66e4-4069-804b-5966338e48d3" />
+<img width="1602" height="1002" alt="Ekran görüntüsü 2026-07-05 192709" src="https://github.com/user-attachments/assets/92c56644-d1a4-413b-9be0-7c87254556e6" />
+<img width="1602" height="1014" alt="Ekran görüntüsü 2026-07-05 192723" src="https://github.com/user-attachments/assets/27019299-c634-4451-bfe3-2d87e53687cf" />
 
 
 ## Ürün Durumu
