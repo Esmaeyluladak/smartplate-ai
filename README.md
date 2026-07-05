@@ -83,9 +83,9 @@ Sprint 1 sonunda;
 - README dokümanı hazırlanmıştır.
 - Product Backlog oluşturulmuştur.
 - GitHub Project Board oluşturulmuştur.
-- React proje yapısı oluşturulmaya başlanmıştır.
+- React proje yapısı oluşturulmuştur.
 - Supabase proje yapısı oluşturulmaya başlanmıştır.
-- Veritabanı tasarımı planlanmıştır.
+- Supabase projesi oluşturulmuş ve veritabanı tasarımı planlanmıştır.
 - Kullanıcı kayıt ve giriş sistemi analiz edilmiştir.
 - Ürün ekleme ve listeleme ekranlarının geliştirilmesi planlanmıştır.
 
