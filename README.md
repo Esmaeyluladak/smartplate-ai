@@ -67,6 +67,9 @@ https://github.com/users/Esmaeyluladak/projects/1/views/1
 
 Daily Scrum toplantıları takım üyelerinin uygunluk durumuna göre WhatsApp üzerinden gerçekleştirilmiştir. Toplantı özetleri ve alınan kararlar grup içerisinde paylaşılmıştır.
 
+[daily scrum özet notları.docx](https://github.com/user-attachments/files/29677981/daily.scrum.ozet.notlari.docx)
+
+
 ## Sprint Board Update
 
 Sprint Board GitHub Projects kullanılarak hazırlanmıştır.
