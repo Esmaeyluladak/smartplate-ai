@@ -11,10 +11,11 @@ export async function signUp(email, password, isim) {
     const { data, error } = await supabase.auth.signUp({ email, password });
     if (error) throw error;
 
-    await supabase.from('users').insert({
+    const { error: profileError } = await supabase.from('users').insert({
         id: data.user.id,
         isim,
     });
+    if (profileError) throw profileError;
 
     return data;
 }
