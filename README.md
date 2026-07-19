@@ -128,7 +128,38 @@ Sprint 2 kapsamında "Backend + AI + Bildirim" görevleri tamamlanmıştır:
 - `supabase/functions/send-expiry-email` Edge Function'ı oluşturuldu — Resend ile "ürün bozulmak üzere" e-posta bildirimi.
 - Her iki fonksiyon da bağımsız olarak (UI entegrasyonu olmadan) test edildi; detaylar ve kullanım örnekleri [`frontend/src/services/HANDOFF.md`](frontend/src/services/HANDOFF.md) içinde.
 
-> UI entegrasyonu (Recipes.jsx'in bu servisleri çağırması) bu sprintin kapsamı dışındadır, sonraki adım olarak handoff notunda belirtilmiştir.
+Tasarım Whatsapp Grubu Mantığı:
+
+👤 Kişi 1 — Backend + AI + Bildirim
+services/ai.js oluştur — AI çağrısı
+Temel prompt: malzeme listesi → 3 tarif (ad, malzeme, süre, kalori, adımlar) JSON formatında
+Bozulacak ürünleri öncelikli kullanan prompt varyasyonu
+Diyet tercihi parametresi (vegan/vejetaryen/glutensiz)
+Kalori hedefi + yakılan kalori bilgisini prompta ekleme
+AI yanıt parse fonksiyonu + temel hata yönetimi (timeout, boş yanıt, API limiti)
+E-posta bildirimi (Resend) — "ürün bozulmak üzere" maili
+Fonksiyon handoff notu + Sprint 1 review/retro belgesi
+(Not: users/fridge_items tabloları, RLS, auth ve fridge CRUD fonksiyonları, 25 mock ürün seed'i zaten tamamlanmış durumda — bunlar listede yok.)
+
+👤 Kişi 2 — Tüm React Arayüzü
+react-router-dom + zustand kurulumu, pages//components//services/ klasör yapısı
+Layout bileşeni + korumalı route wrapper
+Zustand store: user, fridgeItems, loading
+Kayıt ol sayfası
+Giriş yap sayfası
+Profil sayfası
+Buzdolabı ürün listesi (kategori grubu + renk kodu: yeşil/sarı/kırmızı)
+Ürün ekle/düzenle modal
+Sil + onay dialogu
+Bozulacak ürünler uyarı banner'ı
+Mobil responsive ilk kontrol
+Uygulama içi toast bildirim bileşeni
+Çalışan ekranların ekran görüntüleri + sprint board screenshot (GitHub'a eklenecek)
+
+
+<img width="1734" height="1386" alt="Ekran görüntüsü 2026-07-19 173142" src="https://github.com/user-attachments/assets/384abed3-7a9a-40b5-b9a2-24466365ff0e" />
+<img width="1734" height="1292" alt="Ekran görüntüsü 2026-07-19 173124" src="https://github.com/user-attachments/assets/39958d42-2b0e-4ea0-b5b6-707a9d34a6b6" />
+<img width="1718" height="1406" alt="Ekran görüntüsü 2026-07-19 173155" src="https://github.com/user-attachments/assets/6cd7bcbd-b543-4425-b326-5dbe43b4c1c2" />
 
 ## Sprint Review
 
