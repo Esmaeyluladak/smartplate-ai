@@ -160,28 +160,6 @@ https://github.com/users/Esmaeyluladak/projects/1
 
 ## Ürün Durumu
 
-**Kişi 1 — Backend + AI + Bildirim (tamamlandı):**
-
-- `frontend/src/services/ai.js` oluşturuldu — Google Gemini API (`gemini-2.5-flash`) ile tarif önerisi servisi.
-  - Malzeme listesinden 3 tarif üreten temel prompt (JSON formatında: ad, malzeme, süre, kalori, adımlar), Gemini'nin `responseSchema` özelliğiyle yapılandırılmış çıktı garantisi.
-  - Bozulmaya yakın ürünleri önceliklendiren prompt varyasyonu.
-  - Diyet tercihi parametresi (vegan / vejetaryen / glutensiz).
-  - Kalori hedefi ve yakılan kaloriyi prompta ekleyen varyasyon.
-  - AI yanıtını doğrulayan parse fonksiyonu ve kapsamlı hata yönetimi (timeout, boş yanıt, API limiti, parse hatası, ağ hatası) — her hata türü ayrı `AIServiceError` koduyla ayrıştırılmıştır.
-- `supabase/functions/send-expiry-email` Edge Function'ı oluşturuldu — Resend ile "ürün bozulmak üzere" e-posta bildirimi (sunucu tarafında, API key sızıntısına karşı güvenli).
-- Servis katmanı tek sorumluluk prensibiyle ayrıştırılmıştır: prompt oluşturma, AI çağrısı ve yanıt doğrulama ayrı fonksiyonlarda tutulmuştur.
-- Her iki fonksiyon da bağımsız olarak (UI entegrasyonu olmadan) test edildi; detaylar ve kullanım örnekleri [`frontend/src/services/HANDOFF.md`](frontend/src/services/HANDOFF.md) içinde.
-
-**Kişi 2 — Tüm React Arayüzü :**
-
-- react-router-dom + zustand kurulumu, klasör yapısı, Layout + korumalı route wrapper tamamlandı.
-- Kayıt ol / Giriş yap / Profil sayfaları tamamlandı.
-- Buzdolabı ürün listesi (kategori grubu + yeşil/sarı/kırmızı renk kodu), ürün ekle/düzenle modalı, sil onay dialogu ve bozulacak ürün uyarı banner'ı tamamlandı.
-- Uygulama içi toast bildirim bileşeni Sprint 3'e taşınmıştır.
-
-> UI entegrasyonu (Recipes.jsx'in `ai.js`'i çağırması) bilinçli olarak bu sprintin kapsamı dışında bırakılmıştır, Sprint 3 için planlanmıştır.
-
-
 
 <img width="2560" height="1344" alt="Ekran görüntüsü 2026-07-19 172330" src="https://github.com/user-attachments/assets/3927ea0e-7e37-40f5-85a8-dbc787934cf2" />
 
